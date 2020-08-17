@@ -5,8 +5,8 @@
 The C# concept exercises are based on concepts. The list below contains the concepts that have been identified by the track maintainers for the C# language.
 
 _(Please do not modify this document. it is automatically generated. All text except the concept learning objectives is sourced
-                            from [exercises.json](./exercises.json) which should be updated manually when a concept is added or an issue or new design is created
-                            and learning objectives are scraped from the __concept definition__ text in each exercise's design.md document)_.
+from [exercises.json](./exercises.json) which should be updated manually when a concept is added or an issue or new design is created
+and learning objectives are scraped from the **concept definition** text in each exercise's design.md document)_.
 
 ### Introductory Concepts
 
@@ -172,7 +172,7 @@ _(Please do not modify this document. it is automatically generated. All text ex
 | `basics`                    | <ul><li>know what a variable is<li>know how to define a variable<li>know how to update a variable<li>know how to use type inference for variables<li>know how to define a method<li>know how to return a value from a method<li>know how to call a method<li>know that methods must be defined in classes<li>know about the `public` access modifier<li>know about the `static` modifier<li>know how to define an integer<li>know how to use mathematical operators on integers<li>know how to define single- and multiline comments. |
 | `booleans`                  | <ul><li>know of the existence of the `bool` type and its two values<li>know about boolean operators and how to build logical expressions with them<li>know of the boolean operator precedence rules.                                                                                                                                                                                                                                                                                                                                  |
 | `booleans`                  | <ul><li>know of the existence of the `bool` type and its two values<li>know about boolean operators and how to build logical expressions with them<li>know of the boolean operator precedence rules.                                                                                                                                                                                                                                                                                                                                  |
-| `casting`                   | <ul><li>Understand casting of integral numeric types.<li>know what explicit and implicit casts are<li>know how to do an explicit cast<li>know how to use `is` and `as` to convert between types.                                                                                                                                                                                                                                                                                                                                      |
+| `casting`                   | <ul><li>know what explicit and implicit casts are<li>know how to do an explicit cast<li>know how to use `is` and `as` to convert between types.<li>Understand casting of integral numeric types.                                                                                                                                                                                                                                                                                                                                      |
 | `chars`                     | <ul><li>know of the existence of the `char` type<li>know that a `char` represents<li>know how to define a `char`<li>know how to access a `char` in a string by index<li>know of some basic `char` methods (like converting to uppercase).                                                                                                                                                                                                                                                                                             |
 | `classes`                   | <ul><li>know what classes are<li>know what encapsulation is<li>know what fields are<li>know how to create an object<li>know how to update state through methods<li>know about the `void` type.                                                                                                                                                                                                                                                                                                                                        |
 | `conditionals`              | <ul><li>know how to conditionally execute code using an `if` statement.                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -236,7 +236,6 @@ _(Please do not modify this document. it is automatically generated. All text ex
 [issue-signed-integers]: https://github.com/exercism/v3/issues/780
 [issue-string-formatting]: https://github.com/exercism/v3/issues/962
 [issue-structs]: https://github.com/exercism/v3/issues/1017
-
 [design-arrays]: ../exercises/concept/arrays/.meta/design.md
 [design-basics]: ../exercises/concept/basics/.meta/design.md
 [design-booleans]: ../exercises/concept/booleans/.meta/design.md
@@ -264,7 +263,6 @@ _(Please do not modify this document. it is automatically generated. All text ex
 [design-tuples]: ../exercises/concept/tuples/.meta/design.md
 [design-user-defined-exceptions]: ../exercises/concept/user-defined-exceptions/.meta/design.md
 [design-user-defined-exceptions2]: ../exercises/concept/user-defined-exceptions2/.meta/design.md
-
 [exercise-arrays]: ../exercises/concept/arrays
 [exercise-basics]: ../exercises/concept/basics
 [exercise-booleans]: ../exercises/concept/booleans
@@ -292,39 +290,38 @@ _(Please do not modify this document. it is automatically generated. All text ex
 [exercise-tuples]: ../exercises/concept/tuples
 [exercise-user-defined-exceptions]: ../exercises/concept/user-defined-exceptions
 [exercise-user-defined-exceptions2]: ../exercises/concept/user-defined-exceptions2
-
-[tnc-arrays]: ../../../reference/types/array.md
-[tnc-booleans]: ../../../reference/types/boolean.md
-[tnc-chars]: ../../../reference/types/char.md
-[tnc-classes]: ../../../reference/concepts/classes.md
-[tnc-conditionals-if]: ../../../reference/concepts/conditionals.md
-[tnc-conditionals-ternary]: ../../../reference/concepts/conditionals.md
-[tnc-dictionaries]: ../../../reference/types/map.md
-[tnc-encapsulation]: ../../../reference/concepts/encapsulation.md
-[tnc-equality]: ../../../reference/concepts/sameness.md
-[tnc-for-loops]: ../../../reference/concepts/enumeration.md
-[tnc-foreach-loops]: ../../../reference/concepts/enumeration.md
-[tnc-functions]: ../../../reference/types/function.md
-[tnc-higherl-order-functions]: ../../../reference/concepts/higher_order_functions.md
-[tnc-immutability]: ../../../reference/concepts/immutability.md
-[tnc-inheritance]: ../../../reference/concepts/inheritance.md
-[tnc-interfaces]: ../../../reference/concepts/interfaces.md
-[tnc-lambdas]: ../../../reference/concepts/anonymous_functions.md
-[tnc-linq]: ../../../reference/concepts/pipelines.md
-[tnc-lists]: ../../../reference/types/list.md
-[tnc-local-functions]: ../../../reference/concepts/nested_functions.md
-[tnc-memory-allocation]: ../../../memory_allocation
-[tnc-mutation]: ../../../reference/concepts/mutation.md
-[tnc-objects]: ../../../reference/concepts/objects.md
-[tnc-optional-arguments]: ../../../reference/concepts/default_arguments.md
-[tnc-polymorphism]: ../../../reference/concepts/polymorphism.md
-[tnc-queues]: ../../../reference/types/deque.md
-[tnc-ranges]: ../../../reference/types/range.md
-[tnc-recursion]: ../../../reference/concepts/recursion.md
-[tnc-sets]: ../../../reference/types/set.md
-[tnc-stacks]: ../../../reference/types/stack.md
-[tnc-state]: ../../../reference/concepts/state.md
-[tnc-strings]: ../../../reference/types/string.md
-[tnc-tuples]: ../../../reference/types/tuple.md
-[tnc-type-inference]: ../../../reference/concepts/type_inference.md
-[tnc-variables]: ../../../reference/concepts/variables.md
+[tnc-arrays]: ./../../../reference/types/array.md
+[tnc-booleans]: ./../../../reference/types/boolean.md
+[tnc-chars]: ./../../../reference/types/char.md
+[tnc-classes]: ./../../../reference/concepts/classes.md
+[tnc-conditionals-if]: ./../../../reference/concepts/conditionals.md
+[tnc-conditionals-ternary]: ./../../../reference/concepts/conditionals.md
+[tnc-dictionaries]: ./../../../reference/types/map.md
+[tnc-encapsulation]: ./../../../reference/concepts/encapsulation.md
+[tnc-equality]: ./../../../reference/concepts/sameness.md
+[tnc-for-loops]: ./../../../reference/concepts/enumeration.md
+[tnc-foreach-loops]: ./../../../reference/concepts/enumeration.md
+[tnc-functions]: ./../../../reference/types/function.md
+[tnc-higherl-order-functions]: ./../../../reference/concepts/higher_order_functions.md
+[tnc-immutability]: ./../../../reference/concepts/immutability.md
+[tnc-inheritance]: ./../../../reference/concepts/inheritance.md
+[tnc-interfaces]: ./../../../reference/concepts/interfaces.md
+[tnc-lambdas]: ./../../../reference/concepts/anonymous_functions.md
+[tnc-linq]: ./../../../reference/concepts/pipelines.md
+[tnc-lists]: ./../../../reference/types/list.md
+[tnc-local-functions]: ./../../../reference/concepts/nested_functions.md
+[tnc-memory-allocation]: ./../../../memory_allocation
+[tnc-mutation]: ./../../../reference/concepts/mutation.md
+[tnc-objects]: ./../../../reference/concepts/objects.md
+[tnc-optional-arguments]: ./../../../reference/concepts/default_arguments.md
+[tnc-polymorphism]: ./../../../reference/concepts/polymorphism.md
+[tnc-queues]: ./../../../reference/types/deque.md
+[tnc-ranges]: ./../../../reference/types/range.md
+[tnc-recursion]: ./../../../reference/concepts/recursion.md
+[tnc-sets]: ./../../../reference/types/set.md
+[tnc-stacks]: ./../../../reference/types/stack.md
+[tnc-state]: ./../../../reference/concepts/state.md
+[tnc-strings]: ./../../../reference/types/string.md
+[tnc-tuples]: ./../../../reference/types/tuple.md
+[tnc-type-inference]: ./../../../reference/concepts/type_inference.md
+[tnc-variables]: ./../../../reference/concepts/variables.md
